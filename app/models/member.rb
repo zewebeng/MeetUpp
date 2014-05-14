@@ -1,4 +1,5 @@
 class Member < ActiveRecord::Base
   belongs_to :group
-  validates :GroupId
-end
+  belongs_to :user
+
+ end
